@@ -20,7 +20,7 @@ const getRandomInt = (min = 0, max = 100) => {
 
 
 // получить массив случайных целых чисел
-const getRandomArr = (min = 1, max = 100, numberOfItems = 5) => {
+const getRandomArr = (min = 0, max = 100, numberOfItems = 5) => {
   if (numberOfItems < 0) {
     throw new Error('Невозможно выполнить операцию\n' +
       'Указан отрицательный размер массива');
@@ -36,7 +36,7 @@ const getRandomArr = (min = 1, max = 100, numberOfItems = 5) => {
 
 
 // получить массив уникальных чисел
-const getRandomUniq = (min = 1, max = min * 100, numberOfItems = 10) => {
+const getRandomUniq = (min = 0, max = min * 100, numberOfItems = 5) => {
   if (min > max) {
     [min, max] = [max, min];
   }
