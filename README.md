@@ -22,5 +22,5 @@
 Значения по умолчанию: min = 0, max = 100, numberOfItems = 5.
 
 
-Установка:
+Установка:  
 npm i my-random-package
